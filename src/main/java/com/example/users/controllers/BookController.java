@@ -8,7 +8,7 @@ import com.example.users.services.BookService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/products")
+@RequestMapping("/books")
 public class BookController {
     @Autowired
     private BookService service;
